@@ -16,5 +16,8 @@
             "128": "/images/128x128-color.png"
         }
     },
-    "content_scripts": [{}]
+    "content_scripts": [{
+        "matches": ["https://www.google.com/*"],
+        "css": ["main.css"]
+    }]
 }
