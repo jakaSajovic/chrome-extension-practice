@@ -4,16 +4,16 @@
     "description": "Add a custom background to google.com",
     "version": "1.0",
     "icons": {
-        "16": " ",
-        "48": " ",
-        "128": " "
+        "16": "/images/16x16.png",
+        "48": "/images/48x48.png",
+        "128": "/images/128x128.png"
     },
 
     "page_action": {
         "default_icon": {
-            "16": " ",
-            "48": " ",
-            "128": " "
+            "16": "/images/16x16-color.png",
+            "48": "/images/48x48-color.png",
+            "128": "/images/128x128-color.png"
         }
     },
     "content_scripts": [{}]
